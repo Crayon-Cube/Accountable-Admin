@@ -24,7 +24,7 @@ body{
     /* background-color: transparent; */
 }
 
-.logo>h2{
+.logo>h3{
     flex: 2;
 }
 .logo{
@@ -65,9 +65,92 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgb(242, 237, 231);
-    border-bottom: 10px solid blue ;
-    border-radius: 10px;
+    border-bottom: 10px solid rgb(86, 86, 179) ;
+    border-radius: 20px;
 }
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.search>input{
+    border-radius: 30px;
+    background-color: rgb(210, 232, 251);
+    flex:3;
+    width:50rem
+}
+
+.search{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 40px;
+    /* width: max-content; */
+}
+
+.notification{
+    padding-left: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: stretch;
+}
+.notification>p{
+    margin:0;
+    font-size: medium;
+    font-weight: 700;
+}
+/* 
+.svg{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+} */
+.head-down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapp{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+.wrapp>.head-text{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding-left: 30rem;
+    width: 60rem;
+}
+.buttons>button{
+    background-color: blue;
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: 700;
+    width: 100rem;
+}
+#hi{
+    font-size: small;
+    font-weight: 700;
+
+}
+#oak{
+    font-size: large;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .content{
     display: flex;
     flex: 10;
